@@ -1,18 +1,19 @@
 import styles from "./app.module.css";
+import Navbar from "./componentes/Navbar/Navbar";
 
+
+import ItemListContainer from "./componentes/ItemListContainer/itemListContainer";
 
 
 function App() {
-  const nombre="lucas";
-  const nombres =["lucas ","slashito","Rolo","costa"];
+  
   return (
     <><div>
+      <Navbar/>
       
-    
-      <p className={styles.jojo} >{nombre}</p>
-      <ul>
-       { nombres.map( lista => <li>{ lista }</li> ) }
-      </ul>
+      <ItemListContainer/>
+      
+      
       </div>
     </>
   )

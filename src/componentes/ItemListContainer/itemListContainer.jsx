@@ -1,9 +1,9 @@
-import React from 'react'
 
-const itemListContainer = () => {
+
+const ItemListContainer = () => {
   return (
     <div>itemListContainer</div>
   )
 }
 
-export default itemListContainer
+export default ItemListContainer;

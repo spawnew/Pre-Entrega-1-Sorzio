@@ -1,8 +1,14 @@
-import React from 'react'
+import CardWidget from "../CardWidget/CardWidget"
+
 
 const Navbar = () => {
   return (
+    <>
     <div>Navbar</div>
+    <CardWidget/>
+    
+    </>
+    
   )
 }
 
