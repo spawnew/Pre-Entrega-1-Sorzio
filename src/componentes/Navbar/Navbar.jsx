@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
     <nav className={styles.nav}>
-    <img src="/public/img/images.png alt=" style={{with:"150px"}}/>
+    <img className={styles.logo}src="/public/img/357557966_741153148013341_6153979461801503541_n.jpg" />
     <div>
     <button className="btn btn-danger mx-2">Home </button>
     <button className="btn btn-danger mx-2">productos  </button>

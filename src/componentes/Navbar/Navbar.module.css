@@ -3,3 +3,9 @@
     background-color: bisque;
     justify-content: space-around;
 }
+
+.logo{
+    border-radius:1.7rem;
+    width: 5rem;
+    height: 5rem;
+}
