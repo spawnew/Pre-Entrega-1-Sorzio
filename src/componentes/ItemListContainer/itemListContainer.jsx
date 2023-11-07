@@ -1,8 +1,8 @@
+import styles from "./ItemListContainer.module.css";
 
-
-const ItemListContainer = () => {
+export const ItemListContainer = ( { greeting } ) => {
   return (
-    <div>itemListContainer</div>
+    <div className={styles.texto}>{greeting }</div>
   )
 }
 
