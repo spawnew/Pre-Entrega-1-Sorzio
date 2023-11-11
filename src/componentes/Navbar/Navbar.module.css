@@ -1,11 +1,27 @@
 .nav{
     display: flex;
+    flex-wrap: wrap;
     background-color: bisque;
     justify-content: space-around;
+    align-items: center;
+    max-height: 100px;
+    padding: 10px;
+    max-width: 150rem;
 }
 
 .logo{
+    display: flex;
     border-radius:1.7rem;
-    width: 5rem;
+    width: 6rem;
     height: 5rem;
+    align-items: center;
+   
+}
+.titulo{
+    font-family: fantasy;
+    font-size: 4rem;
+    color: black;
+    padding-left: 10px;
+font-style: italic;
+margin: 15px;
 }

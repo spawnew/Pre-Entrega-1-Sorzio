@@ -1,4 +1,5 @@
 .carrito{
     display: flex;
-    justify-items: end;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

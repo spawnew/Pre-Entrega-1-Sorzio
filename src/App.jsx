@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar/>
       
-      <ItemListContainer greeting={"bienvenidos a Imperio Yugioh"}/>
+      <ItemListContainer greeting={"Bienvenidos a Imperio Yugioh"}/>
       
       
       </>
