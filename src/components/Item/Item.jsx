@@ -12,7 +12,7 @@ export const Item = ({id, name, img, price }) => {
             </div>
             <h4>${price}</h4>
             <div className="d-flex flex-row-reverse">
-            <Link to={`/item/${id}`}>
+            <Link to={`./item/${id}`}>
               <button className="btn btn-primary ">Detalles</button>
             </Link>
             </div>

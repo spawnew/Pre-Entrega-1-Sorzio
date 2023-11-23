@@ -4,12 +4,9 @@ import { BsFillCartFill } from "react-icons/bs";
 const CardWidget = () => {
 const [suma,setsuma] = useState(0);
 
-
 const sumar =()=>{
   setsuma(suma+1);
 }
-
-
 
   return (
     <div className={styles.carrito}>
@@ -23,4 +20,4 @@ const sumar =()=>{
   );
 };
 
-export default CardWidget
+export default CardWidget;
