@@ -1,0 +1,8 @@
+.foto{
+   display: flex;
+    max-width:10rem;
+    max-height:10rem;
+    width: 400px;
+    height:300px;
+    border-radius: 10px;
+}
