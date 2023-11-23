@@ -1,5 +1,5 @@
 const products = [
-    { id: "1", name: "Zapato", img: "url-img", price: 100, category: "calzados", description: "Una Zapato", stock: 10 },
+    { id: "1", name: "Zapato", img: "url-img", price: "100", category: "calzados", description: "Una Zapato", stock: "10" },
     { id: "2", name: "Bota", img: "url-img", price: 100, category: "calzados", description: "Una Bota", stock: 10 },
     { id: "3", name: "Ojota", img: "url-img", price: 100, category: "calzados", description: "Un Ojota", stock: 10 },
     { id: "4", name: "Zapatilla", img: "url-img", price: 100, category: "calzados", description: "Una Zapatilla", stock: 10 },

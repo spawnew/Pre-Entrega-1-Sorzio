@@ -1,23 +1,11 @@
-import {useState} from "react";
-import styles from "./CardWidget.module.css";
-import { BsFillCartFill } from "react-icons/bs";
-const CardWidget = () => {
-const [suma,setsuma] = useState(0);
+import { BiCart } from "react-icons/bi";
 
-const sumar =()=>{
-  setsuma(suma+1);
+export const CartWidget = () => {
+  return (
+    <div className="h-25">
+        <BiCart size={28}/>
+        <strong>4</strong>
+    </div>
+  )
 }
 
-  return (
-    <div className={styles.carrito}>
-      <BsFillCartFill size="30" color="blue"/>
-     
-     <div>sumar:{suma}
-      
-     <button onClick={sumar}>+</button>
-     </div>
-    </div>
-  );
-};
-
-export default CardWidget;
