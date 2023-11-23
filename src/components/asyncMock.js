@@ -1,11 +1,11 @@
 const products = [
-    { id: "1", name: "Zapato", img: "url-img", price: "100", category: "calzados", description: "Una Zapato", stock: "10" },
-    { id: "2", name: "Bota", img: "url-img", price: 100, category: "calzados", description: "Una Bota", stock: 10 },
-    { id: "3", name: "Ojota", img: "url-img", price: 100, category: "calzados", description: "Un Ojota", stock: 10 },
-    { id: "4", name: "Zapatilla", img: "url-img", price: 100, category: "calzados", description: "Una Zapatilla", stock: 10 },
-    { id: "5", name: "Remera", img: "url-img", price: 100, category: "ropa", description: "Una Remera", stock: 10 },
-    { id: "6", name: "Camisa", img: "url-img", price: 100, category: "ropa", description: "Una Camisa", stock: 10 },
-    { id: "7", name: "Pantalón", img: "url-img", price: 100, category: "ropa", description: "Una Pantalón", stock: 10 },
+    { id: "1", name: "darknecrofear", img: "url-img", price: "100", category: "singles", description: "fiend", stock: "10" },
+    { id: "2", name: "Galaxy eyes", img: "url-img", price: 100, category: "singles", description: "dragon", stock: 10 },
+    { id: "3", name: "Ojos rojos ", img: "url-img", price: 100, category: "singles", description: "dragon oscurito", stock: 10 },
+    { id: "4", name: "blue eyes", img: "url-img", price: 100, category: "singles", description: "dragon blanco", stock: 10 },
+    { id: "5", name: "megatin", img: "url-img", price: 100, category: "sellados", description: "caja dorada", stock: 10 },
+    { id: "6", name: "rarity colection", img: "url-img", price: 100, category: "sellados", description: "caja normal", stock: 10 },
+    { id: "7", name: "batle of legend", img: "url-img", price: 100, category: "sellados", description: "caja plateada", stock: 10 },
   ];
     
   export const getProducts = () => {
