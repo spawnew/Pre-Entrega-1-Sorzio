@@ -8,33 +8,34 @@ const products = [
     { id: "7", name: "Pantalón", img: "url-img", price: 100, category: "ropa", description: "Una Pantalón", stock: 10 },
   ];
     
-    export const getProducts = () => {
-      return new Promise((resolve, reject) => {
-        
-        if (products.length > 0) {
-          setTimeout(() => {
-            resolve(products);
-          }, 2000);
+  export const getProducts = () => {
+
+    return new Promise((resolve, reject) => {
+        if(products.length > 0) {
+            setTimeout(() => {
+                resolve(products)
+            }, 2000);
         } else {
-          reject("No hay productos");
+            reject("no hay productos")
         }
-      });
-    };
-  
-    export const getProductById = (id) => {
-      return new Promise((resolve, reject) => {
-        
+    })
+}
+
+export const getProductsById = (id) => {
+    return new Promise((resolve, reject) => {
+
         if (products.length > 0) {
-          const product = products.find( p => p.id === id);
-          
-          setTimeout(() => {
-            if(!product) {
-              reject(`No se encuentra el productos con el id ${id}`)
-            }
-            resolve(product);
-          }, 2000);
+            const product = products.find( product => product.id === id)
+
+            setTimeout(() => { 
+                if(!product) {
+                    reject(`Disculpa, no se encuentra el producto ${id}`)
+                }
+                resolve(product)
+             }, 2000)
         } else {
-          reject("No hay productos");
+            reject("Nos quedamos sin productos :(")
         }
-      });
-    };
+    })
+
+}
