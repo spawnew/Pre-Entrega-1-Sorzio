@@ -21,7 +21,7 @@ const products = [
     })
 }
 
-export const getProductsById = (id) => {
+export const getProductById = (id) => {
     return new Promise((resolve, reject) => {
 
         if (products.length > 0) {

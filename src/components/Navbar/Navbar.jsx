@@ -16,13 +16,15 @@ export const NavBar = () => {
         <Link to="/category/singles">
         <button className="btn btn-danger mx-2">Singles  </button>
         </Link>
+        
         <Link to="/category/sellados">
         <button className="btn btn-danger mx-2">Sellados </button>
         </Link>
-      </div>
+      
       <Link to="/cart">
         <CartWidget />
       </Link>
+      </div>
     </nav>
       
     
