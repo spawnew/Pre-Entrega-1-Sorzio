@@ -5,7 +5,6 @@ import { useParams } from "react-router-dom";
 
 
 
-
 export const ItemListContainer = () => {
   const { category } = useParams()
   const [products, setProducts] = useState([])
@@ -31,5 +30,5 @@ export const ItemListContainer = () => {
       .catch((error) => console.log(error));
   }, [category]);
 
-  return <>{isLoading ? <h1 className="text-center p-5 shadow p-3 mb-5 bg-body-tertiary rounded" >Cargando productos</h1> : <ItemList products={products} />}</>;
+  return <>{isLoading ? <h2> Cargando productos... </h2> : <ItemList products={products} />}</>;
 };
