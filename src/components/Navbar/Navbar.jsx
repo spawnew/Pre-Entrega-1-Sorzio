@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { CartWidget } from "../CardWidget/CardWidget";
 import styles from "./Navbar.module.css";
 export const NavBar = () => {
@@ -9,24 +9,25 @@ export const NavBar = () => {
     <p className={ styles.titulo}>ImperioYugioh</p>
     </div>
       <div>
-        <Link to="/">
+        < NavLink to="/">
           
     <button className="btn btn-danger mx-2">Home </button>
-        </Link>
-        <Link to="/category/singles">
+        </ NavLink>
+        < NavLink to="/category/singles">
         <button className="btn btn-danger mx-2">Singles  </button>
-        </Link>
+        </ NavLink>
         
-        <Link to="/category/sellados">
+        < NavLink to="/category/sellados">
         <button className="btn btn-danger mx-2">Sellados </button>
-        </Link>
+        </ NavLink>
       
-      <Link to="/cart">
+      < NavLink to="/cart">
         <CartWidget />
-      </Link>
+      </ NavLink>
       </div>
     </nav>
       
     
   );
 };
+// NavLink le da un hover a botenes

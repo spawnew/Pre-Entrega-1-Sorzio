@@ -1,6 +1,7 @@
 import {  ItemListContainer,ItemDetailContainer, NavBar } from "./components";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {Cart} from "./components";
+import  {Products}  from "./components/Products/Products";
 export const App = () => {
   return (
     <BrowserRouter>
@@ -14,7 +15,9 @@ export const App = () => {
         <Route path="/item/:id" element={<ItemDetailContainer />} />
         <Route path="/Cart" element={<Cart />} />
       </Routes>
+      <Products/>
     </BrowserRouter>
+
   );
 };
 export default App;
